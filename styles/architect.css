@@ -68,6 +68,38 @@
 .banner-image{
     width: 100%;
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 130px;
+}
+/* teams styles */
+.teams{
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.feature-title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.quick-list{
+    color: #727272;
+}
+.feature{
+    color: rgba(255, 144, 14, 1);
+}
+.our-features{
+    margin-left: 130px;
+    max-width: 530px;
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar,.nav-links{
