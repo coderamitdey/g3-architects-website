@@ -128,6 +128,20 @@ main > section{
     margin-top: 10px;
     margin-bottom: 30px;
 }
+.section-img-container img{
+    width: 100%;
+}
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500px;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+#experience-year{
+    font-size: 4rem;
+    font-weight: bold;
+}
 
 /* some facts related styles */
 .facts-container{
@@ -181,7 +195,7 @@ main > section{
 /* responsive media query */
 /* small devices */
 @media screen and (max-width: 576px) {
-    .navbar,.nav-links{
+    .navbar,.nav-links,.sections{
         flex-direction: column;
         gap: 10px;
     }
@@ -203,6 +217,10 @@ main > section{
         justify-items: center;
         gap: 25px;
     }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
     
 }
 /* medium devices */
@@ -220,6 +238,10 @@ main > section{
         grid-template-columns: repeat(1,1fr);
         justify-items: center;
         gap: 25px;
+    }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
     }
     
 }
