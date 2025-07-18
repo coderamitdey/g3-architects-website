@@ -104,7 +104,14 @@ main > section{
 .feature-description{
     color: #727272;
 }
+/* section part style */
+.section-title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
 /* responsive media query */
+/* small devices */
 @media screen and (max-width: 576px) {
     .navbar,.nav-links{
         flex-direction: column;
@@ -122,6 +129,16 @@ main > section{
     }
     .our-features{
         margin-left: 20px;
+    }
+    
+}
+/* medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .teams{
+        flex-direction: column;
+    }
+    .our-features{
+        margin: 50px auto;
     }
     
 }
