@@ -89,6 +89,7 @@ main > section{
 .feature-title{
     font-size: 3rem;
     font-weight: bold;
+    margin-bottom: 25px;
 }
 .quick-list{
     color: #727272;
@@ -100,10 +101,27 @@ main > section{
     margin-left: 130px;
     max-width: 530px;
 }
+.feature-description{
+    color: #727272;
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar,.nav-links{
         flex-direction: column;
         gap: 10px;
     }
+}
+@media screen and (max-width: 576px) {
+    .teams{
+        flex-direction: column;
+        gap: 10px;
+        margin-left: auto;
+    }
+    .team-img-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .our-features{
+        margin-left: 20px;
+    }
+    
 }
